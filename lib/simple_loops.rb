@@ -19,7 +19,7 @@ end
 
 def output_array(array)
   index = 0 
-  while index =< array.length - 1 do
+  while index <= array.length - 1 do
     puts array[index]
     index += 1 
   end
@@ -27,7 +27,7 @@ end
 
 def return_string_array(array)
   index = 0 
-  while index =< array.length -1 do
+  while index <= array.length -1 do
     array[index] = array[index].to_s
     index += 1 
   end
